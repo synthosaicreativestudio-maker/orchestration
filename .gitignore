@@ -1,0 +1,16 @@
+# Secrets
+.env
+*.key
+*.pem
+secrets/
+
+# IDE files
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
