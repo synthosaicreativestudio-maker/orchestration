@@ -3,8 +3,8 @@
 # Sync Global Orchestration Logic (macOS/Linux)
 set -e
 
-SOURCE_DIR="./.agent"
-DEST_DIR="$HOME/.antigravity/global_orchestrator"
+SOURCE_DIR="/Users/verakoroleva/Desktop/доработка маркетинг 2/orchestration/.agent"
+DEST_DIR="/Users/verakoroleva/.antigravity/global_orchestrator"
 BACKUP_DIR="$DEST_DIR/backup/$(date +%Y%m%d_%H%M%S)"
 
 echo "🚀 Starting Global Orchestration Sync..."
